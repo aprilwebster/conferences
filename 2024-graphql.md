@@ -136,6 +136,20 @@ EXPORERE in graphql -- copy operation to graphQL\
       - can lead to performance degradation, DOS attacks, resource exhaustion, increased operational costs
 - Use persisted queries
   - document allow-list -- persisted queries or stored operations
+     - whitelists your queries
+     - backend checks if allow list
+     - very popular way to prevent malicious attacks
   - API security implications -- shifts security to development phase (easier to check), but adds burden to developers to maintain these
-  
- 
+- Input Validation
+   - protects agains injection attacks, XSS
+ - Secure Direct Object References
+   - implement auth checks in a resolver function to secure direct object references in GraphQL
+   - if not exposes sensitive data to unauthorized users
+- Error Handling
+   - create afunction to parse and handle errors in your application don't expose any sensitive data. Don't have verbose info. e.g., Connt query field email on X.
+- Query Complexity Analysis
+   - how complex is your query -- is at risk for DoS attacks
+   - implement query complexity analysis middleware -- assign scores to it and then limit queries of score that's too high
+- Mass Assignment Checks
+   - not very common, but critical
+   - able to edit a parameter in a mass way which isn't allowed (e.g., API takes form input and the user is also able to add a parameter they aren't allowed to add but API doesn't check) -- this makes the user an ADMIN
