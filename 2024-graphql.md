@@ -80,5 +80,18 @@ Github schema: github.graphql
 
 Step 1: create embedded rep
 - read schema and parse i, take definitions and create a rep of the string object
+
+### Tools
+ollama
+openai, gemini
+token counting -- see a lot in the openapi space -- for pricing
+npm scripts tab in VSCbree
+break graphql scheme into definitions (but could use fields) and vectorize
+does vector search (top k relevant -- it's the retriever in th code in `generate.js`)
+has prompt for langchain -- `docPrompt`
+
+docs get added to context that is then sent to LLM
+
+ideal version of github v5 -- text box at top
  
  
