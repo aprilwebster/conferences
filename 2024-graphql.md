@@ -56,5 +56,29 @@ Connection(Generic[T])
 - keep your resolvers thin (10 lines)
 - check in your [SDL](https://www.apollographql.com/tutorials/lift-off-part1/03-schema-definition-language-sdl) -- to help people understand your schema
 
+# LLM
+Graph schema is in the LLM -- can easily understand GraphQL
+GraphQL is better for GI
+Just need to be worried about writing the query
 
+Can we orifuce a graphQL contet
+- using RAG
+  takebreak apart the schema and create vector rep using some embedding model (openAPI or llama) to take text and turn into model
+  cvector search to get relevant parts of document
+
+HOw do you do this?
+- very simple
+- DEMO
+
+Github schema: github.graphql
+- github really good at commenting
+- ADD COMMENTS IN GRAPHQL SCHEMA - semantics for pieces of schema, very helpful for LLMs
+- add a lot of metadata and even tha arguments, add as much verbosity to arguments; opportunities for us to change that
+- decisions in how you make decisions
+- Garner - 30% of traffic from LLMs and AI - one of clients need to support in the future
+- with graphql already there
+
+Step 1: create embedded rep
+- read schema and parse i, take definitions and create a rep of the string object
+ 
  
