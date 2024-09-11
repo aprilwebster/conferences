@@ -103,4 +103,17 @@ ideal version of github v5 -- text box at top
  - definitely an aspect of schema design
  - root level of query in journey to create operation -- richness of that, product entry point to triage into various capabilities of products -- what are tht things you can do with the product and different fector searches
  - vectorize into different vectorizaion for two sets of docs -- definitions, then secon is fields types
+
+use deprecared
+too many repeatable thigs -- docs have overlap
+
+Comments metadata ideas -- USE LINTING
+Governance control for 
+inting rules -- that requires a comment especially for a platform API -- require minimum bill of materials, auth pattern, headers, what you contribute
+
+GOVERNANCE -- process, support beck end for front end, those who create APIs want to have ownership and maybe not have as much desire to support others in org
+some teams support many teams and wantto 
+follow as cosely where are to meet developers and fows where they are -- wrap the governance where they are
+
+EXPORERE in graphql -- copy operation to graphQL
  
