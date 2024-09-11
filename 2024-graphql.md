@@ -93,5 +93,14 @@ has prompt for langchain -- `docPrompt`
 docs get added to context that is then sent to LLM
 
 ideal version of github v5 -- text box at top
- 
+ mongo db for vector store
+ bring AI into API strategy
+ first question -- use it with internal developers first, then put in front of customers -- then have more confidence
+
+
+ YELP schema -- two parts, one is plural version of word, the way it gets nested so the LLM gets confused and have hallucinations. LOok at confidence store of documents!
+ - Mongo API makes it easy to get confidence for each document
+ - definitely an aspect of schema design
+ - root level of query in journey to create operation -- richness of that, product entry point to triage into various capabilities of products -- what are tht things you can do with the product and different fector searches
+ - vectorize into different vectorizaion for two sets of docs -- definitions, then secon is fields types
  
