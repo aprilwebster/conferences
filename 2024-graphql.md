@@ -115,5 +115,27 @@ GOVERNANCE -- process, support beck end for front end, those who create APIs wan
 some teams support many teams and wantto 
 follow as cosely where are to meet developers and fows where they are -- wrap the governance where they are
 
-EXPORERE in graphql -- copy operation to graphQL
+EXPORERE in graphql -- copy operation to graphQL\
+
+# Security
+- disable introspection in production
+   - exposes how your schema is constructed -- malicious attacks, payloads, etc
+   - it's only okay for PUBLIC APIS, ot internal
+   - use automatic tools
+- robust authentication
+   - How to do this
+      - use secure protocols
+      - impement rstrong autheication (Jwt, Oauth)
+      - validate tokens for every request
+      - securely manage sessions
+      - enforce password policies
+      - offer multi-factor auth
+      - example
+         - 23 and me -- brute force attack as login API endpoint wasn't enforcing authenication
+- Limit Query Depths
+      - can lead to performance degradation, DOS attacks, resource exhaustion, increased operational costs
+- Use persisted queries
+  - document allow-list -- persisted queries or stored operations
+  - API security implications -- shifts security to development phase (easier to check), but adds burden to developers to maintain these
+  
  
