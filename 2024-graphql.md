@@ -153,3 +153,5 @@ EXPORERE in graphql -- copy operation to graphQL\
 - Mass Assignment Checks
    - not very common, but critical
    - able to edit a parameter in a mass way which isn't allowed (e.g., API takes form input and the user is also able to add a parameter they aren't allowed to add but API doesn't check) -- this makes the user an ADMIN
+- Excessive Data Exposure
+   - implement a field-level auth check in the resolver to avoid account takeover
