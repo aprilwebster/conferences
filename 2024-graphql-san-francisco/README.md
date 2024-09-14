@@ -14,6 +14,7 @@ I attended the following talks:
 #### Overview
 - Speaker: Erik Wrede, fulfillmenttools, Software Engineer ([LinkedIn](https://www.linkedin.com/in/erikwrede/))
 - [Slides](<Implementation-First-GraphQL Conf 2024.pdf>)
+- [Notes](wrede-erik-implementation-first-graphql-schema.md)
 - Video
 
 #### Abstract
@@ -25,6 +26,7 @@ When we look at GraphQL server implementation approaches, you often see the disc
 #### Overview
 - Speaker: Emily Li, Benchling, Software Engineer
 - [Slides](<Emily_Li_GraphQLConf_2024.pdf>)
+- 
 - Video
 
 #### Abstract
