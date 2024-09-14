@@ -37,6 +37,7 @@ Existing GraphQL frameworks are well designed to handle statically defined types
 #### Overview
 - Speaker: Michael Watson, Apollo GraphQL, Developer Relations Manager
 - [Slides](<Dynamic (but Safe) Operations.pdf>)
+- [Notes](dynamic-operations-using-ai.md)
 - Video
 
 #### Abstract
