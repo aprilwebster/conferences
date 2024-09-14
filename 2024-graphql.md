@@ -1,7 +1,26 @@
+# Conference: GraphQL 2024
+I attended one day of the 2024 SF GraphQL Conference. I got a pass by reaching out to the CTO of IBM Software (founder of 
 
-# Implentation-First GraphQL
-Speaker: Erik Wrede
+- **Location**: San Francisco
+- **Dates**: Sept 10-12, 2024
+- **Schedule**: https://graphql.org/conf/2024/
+- **Notes**: this conference doesn't have any volunteer opportunities nor diversity scholarships
 
+  
+
+# Why You Should Use Implementation-First to Build Your GraphQL Schema (Erik Wrede)
+
+## Overview 
+## Networking
+Check out the docs
+http://strawberry.rocks
+http://grats.capt.dev
+You can find me on
+
+## Resources
+
+
+## Talk Notes
 - derive schema from the implementation
 - ensure type safety
 - for each typesript type, you get a GraphQL type
