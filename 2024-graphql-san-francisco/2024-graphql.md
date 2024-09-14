@@ -9,10 +9,10 @@ I attended one day of the 2024 SF GraphQL Conference. I got a pass by reaching o
 # Talks 
 I attended the following talks:
 
-### [Why You Should Use Implementation-First to Build Your GraphQL Schema (Erik Wrede, fulfillmenttools, Software Engineer)](https://graphql.org/conf/2024/schedule/c13801cab4bdcf1c9e7321fba8daca3f/?name=Why%20You%20Should%20Use%20Implementation-First%20to%20Build%20Your%20GraphQL%20Schema)
+### [Why You Should Use Implementation-First to Build Your GraphQL Schema ](https://graphql.org/conf/2024/schedule/c13801cab4bdcf1c9e7321fba8daca3f/?name=Why%20You%20Should%20Use%20Implementation-First%20to%20Build%20Your%20GraphQL%20Schema)
 
 #### Overview
-- Speaker: Erik Wrede ([LinkedIn](https://www.linkedin.com/in/erikwrede/))
+- Speaker: Erik Wrede, fulfillmenttools, Software Engineer ([LinkedIn](https://www.linkedin.com/in/erikwrede/))
 - [Slides](<Implementation-First-GraphQL Conf 2024.pdf>)
 - Video
 
@@ -20,21 +20,21 @@ I attended the following talks:
 When we look at GraphQL server implementation approaches, you often see the discussion between code-first and schema-first as a schema building approach. What is overlooked is that Facebook actually built their Hack-based GraphQL server with implementation-first. This approach will infer the GraphQL schema from your code, and by extension from your business layer. In this talk, I will look at various implementations of implementation-first and explain why Facebook chose this approach to build their own GraphQL server and why it is actually the better approach in most projects.
 
 
-### [Dynamically Serving a GraphQL API with Custom Types at Runtime (Emily Li, Benchling, Software Engineer)](https://graphql.org/conf/2024/schedule/24100908c07eed48ee464ca2509ef527/?name=Dynamically%20Serving%20a%20GraphQL%20API%20with%20Custom%20Types%20at%20Runtime)
+### [Dynamically Serving a GraphQL API with Custom Types at Runtime](https://graphql.org/conf/2024/schedule/24100908c07eed48ee464ca2509ef527/?name=Dynamically%20Serving%20a%20GraphQL%20API%20with%20Custom%20Types%20at%20Runtime)
 
 #### Overview
-- Speaker: 
-- Slides
+- Speaker: Emily Li, Benchling, Software Engineer
+- [Slides](<Emily_Li_GraphQLConf_2024.pdf>)
 - Video
 
 #### Abstract
 Existing GraphQL frameworks are well designed to handle statically defined types and resolvers. Here at Benchling, we faced the problem of serving a GraphQL API which incorporated customer-defined types at runtime with a dynamically generated graph that varies customer-to-customer. In this talk, I’ll describe some of the challenges in serving this GraphQL API, including dynamic generation of graph components and performance. Then, I’ll describe how we extended Strawberry (the GraphQL framework we decided to use) to handle our use cases as well as a graph-caching strategy that allowed us to dramatically improve the performance of serving the API.
 
-### [Dynamic (but Safe) Operations: Using AI to Generate Trusted Operations from Text Prompts (Michael Watson, Apollo GraphQL, Developer Relations Manager)](https://graphql.org/conf/2024/schedule/f02cda18e19887fddeb56b06445ac256/?name=Dynamic%20(but%20Safe)%20Operations%3A%20Using%20AI%20to%20Generate%20Trusted%20Operations%20from%20Text%20Prompts)
+### [Dynamic (but Safe) Operations: Using AI to Generate Trusted Operations from Text Prompts](https://graphql.org/conf/2024/schedule/f02cda18e19887fddeb56b06445ac256/?name=Dynamic%20(but%20Safe)%20Operations%3A%20Using%20AI%20to%20Generate%20Trusted%20Operations%20from%20Text%20Prompts)
 
 #### Overview
-- Speaker: 
-- Slides
+- Speaker: Michael Watson, Apollo GraphQL, Developer Relations Manager
+- [Slides](<Dynamic (but Safe) Operations.pdf>)
 - Video
 
 #### Abstract
