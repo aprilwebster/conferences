@@ -9,21 +9,35 @@ I attended one day of the 2024 SF GraphQL Conference. I got a pass by reaching o
 # Talks 
 I attended the following talks:
 
-## [Why You Should Use Implementation-First to Build Your GraphQL Schema (Erik Wrede, fulfillmenttools, Software Engineer)](https://graphql.org/conf/2024/schedule/c13801cab4bdcf1c9e7321fba8daca3f/?name=Why%20You%20Should%20Use%20Implementation-First%20to%20Build%20Your%20GraphQL%20Schema)
+### [Why You Should Use Implementation-First to Build Your GraphQL Schema (Erik Wrede, fulfillmenttools, Software Engineer)](https://graphql.org/conf/2024/schedule/c13801cab4bdcf1c9e7321fba8daca3f/?name=Why%20You%20Should%20Use%20Implementation-First%20to%20Build%20Your%20GraphQL%20Schema)
 
-Notes
+#### Overview
+- Speaker: Erik Wrede ([LinkedIn](https://www.linkedin.com/in/erikwrede/))
+- [Slides](<Implementation-First-GraphQL Conf 2024.pdf>)
+- Video
 
+#### Abstract
 When we look at GraphQL server implementation approaches, you often see the discussion between code-first and schema-first as a schema building approach. What is overlooked is that Facebook actually built their Hack-based GraphQL server with implementation-first. This approach will infer the GraphQL schema from your code, and by extension from your business layer. In this talk, I will look at various implementations of implementation-first and explain why Facebook chose this approach to build their own GraphQL server and why it is actually the better approach in most projects.
 
 
-## [Dynamically Serving a GraphQL API with Custom Types at Runtime (Emily Li, Benchling, Software Engineer)](https://graphql.org/conf/2024/schedule/24100908c07eed48ee464ca2509ef527/?name=Dynamically%20Serving%20a%20GraphQL%20API%20with%20Custom%20Types%20at%20Runtime)
+### [Dynamically Serving a GraphQL API with Custom Types at Runtime (Emily Li, Benchling, Software Engineer)](https://graphql.org/conf/2024/schedule/24100908c07eed48ee464ca2509ef527/?name=Dynamically%20Serving%20a%20GraphQL%20API%20with%20Custom%20Types%20at%20Runtime)
 
-Notes
+#### Overview
+- Speaker: 
+- Slides
+- Video
 
+#### Abstract
 Existing GraphQL frameworks are well designed to handle statically defined types and resolvers. Here at Benchling, we faced the problem of serving a GraphQL API which incorporated customer-defined types at runtime with a dynamically generated graph that varies customer-to-customer. In this talk, I’ll describe some of the challenges in serving this GraphQL API, including dynamic generation of graph components and performance. Then, I’ll describe how we extended Strawberry (the GraphQL framework we decided to use) to handle our use cases as well as a graph-caching strategy that allowed us to dramatically improve the performance of serving the API.
 
-## [Dynamic (but Safe) Operations: Using AI to Generate Trusted Operations from Text Prompts (Michael Watson, Apollo GraphQL, Developer Relations Manager)]
+### [Dynamic (but Safe) Operations: Using AI to Generate Trusted Operations from Text Prompts (Michael Watson, Apollo GraphQL, Developer Relations Manager)](https://graphql.org/conf/2024/schedule/f02cda18e19887fddeb56b06445ac256/?name=Dynamic%20(but%20Safe)%20Operations%3A%20Using%20AI%20to%20Generate%20Trusted%20Operations%20from%20Text%20Prompts)
 
+#### Overview
+- Speaker: 
+- Slides
+- Video
+
+#### Abstract
 Platform engineering and internal developer portals have been a growing trend in the tech industry to make developers more efficient. For example, how do we help new developers ship their first feature faster? GraphQL helps Platform API efforts ship features faster, but what about when your schema gets very complex? How can a new developer find what they need quickly? GraphQL already provides a complete and understandable description of the data in our APIs, but what if we provide that context to a LLM? In this talk, we'll journey through GitHub's APIs and explore how a GraphQL schema is a significant advantage in AI-based tooling. We're seeing more AI-based tools generate fetch code based on OpenAPI definitions, and while they may be tempting at first, it could be a decision with unexpected trade-offs. We'll show how to take a standard open-sourced LLM and provide a GraphQL-aware context to generate operations from text input. After this talk, you can safely bring AI to your developer efficiency initiatives with any LLM, 3rd party, or self-hosted!
 
 
