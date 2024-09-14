@@ -26,7 +26,7 @@ When we look at GraphQL server implementation approaches, you often see the disc
 #### Overview
 - Speaker: Emily Li, Benchling, Software Engineer
 - [Slides](<Emily_Li_GraphQLConf_2024.pdf>)
-- 
+- [Notes](dynamically-generated-graphql-schema.md)
 - Video
 
 #### Abstract
